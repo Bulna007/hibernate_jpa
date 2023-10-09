@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+    <class name="com.bs3.entities.Account" table="account">
+        <id name="accountNo" column="account_no"/>
+        <property name="age"/>
+        <property name="gender"/>
+        <property name="emailAddress" column="email_address"/>
+        <property name="branchName" column="branch_nm"/>
+        <property name="accountHolderName" column="account_holder_nm"/>
+        <property name="mobileNo" column="mobile_no"/>
+    </class>
+</hibernate-mapping>
